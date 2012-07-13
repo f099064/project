@@ -22,6 +22,7 @@ class WhatIsGit
     end
 
     def language
+      ENV['LANG'][0..1]
     end
 
 end
